@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    
     include_once("config.php");
 
         // Now we check if the data was submitted, isset() function will check if the data exists.

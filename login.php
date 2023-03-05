@@ -38,6 +38,22 @@
 							<form style="width: 23rem;" action="auth.php" method="post" id="login">
 
 								<h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
+								
+
+								<div class="form-floating mb-4">
+									<input type="radio" name="radio" value="student" class="form-check-input" checked>
+									<label class="form-check-label" for="student">I am student</label>
+									
+
+								</div>
+								
+								<div class="form-floating mb-4">
+									<input type="radio" name="radio" value="tutor" class="form-check-input" >
+									<label class="form-check-label">I am tutor</label>	
+									
+								</div>
+
+
 
 								<div class="form-floating mb-4">
 									<input type="text" id="username" name="username" class="form-control form-control-lg" >
